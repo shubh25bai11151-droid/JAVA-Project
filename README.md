@@ -1,46 +1,57 @@
 # JAVA-Project
 
-Library Management System
+
+#  Library Management System
+
 A simple console-based Library Management System developed using Java and Object-Oriented Programming concepts.
 
-About the Project
+##  About the Project
+
 The Library Management System is designed to manage books and library members through a simple interactive menu.
 
 The system allows users to add, search, issue, return, and remove books, as well as manage library members.
 
-Features
-Add new books
-Add new library members
-Display all books
-Search for a book using Book ID
-Issue a book
-Return a book
-Remove a book
-Display all members
-Display currently issued books
-Exit the system
-Technologies Used
-Java
-Object-Oriented Programming (OOP)
-ArrayList
-Scanner
-VS Code
-Java Concepts Used
+##  Features
+
+-  Add new books
+-  Add new library members
+-  Display all books
+-  Search for a book using Book ID
+-  Issue a book
+-  Return a book
+-  Remove a book
+-  Display all members
+-  Display currently issued books
+-  Exit the system
+
+##  Technologies Used
+
+- **Java**
+- **Object-Oriented Programming (OOP)**
+- **ArrayList**
+- **Scanner**
+- **VS Code**
+
+##  Java Concepts Used
+
 This project demonstrates:
 
-Classes and Objects
-Constructors
-Encapsulation
-Methods
-ArrayList
-Loops
-Conditional Statements
-Switch Case
-Exception-free input handling
-Basic OOP principles
-Project Structure
+- Classes and Objects
+- Constructors
+- Encapsulation
+- Methods
+- ArrayList
+- Loops
+- Conditional Statements
+- Switch Case
+- Exception-free input handling
+- Basic OOP principles
+
+##  Project Structure
+
 Library-Management-System/
 
+```
 │
 ├── src/
 │   ├── Book.java
@@ -56,36 +67,52 @@ Library-Management-System/
 ├── .gitignore
 └── LICENSE
 
-How to Run
-Clone the Repository
+```
+---
+
+## How to Run
+
+1. Clone the Repository
+```
 git clone <repository-url>
-Open the Project
+```
+3. Open the Project
+
 Open the Library-Management-System folder in Visual Studio Code.
 
-Open the Terminal
-Navigate to the src folder:
+5. Open the Terminal
 
+Navigate to the src folder:
+```
 cd src
-Compile the Java Files
+```
+6. Compile the Java Files
+```
 javac *.java
-Run the Program
+```
+7. Run the Program
+
 java Main
 
-How the system works
-         START
-           ↓
-      Display Menu
-           ↓
-   Select an Operation
-           ↓
-  Perform the Operation
-           ↓
-    Display the Result
-           ↓
-    Return to Menu
-           ↓
-      Exit System
-Main Classes
+
+## How the system works
+
+             START
+               ↓
+          Display Menu
+               ↓
+       Select an Operation
+               ↓
+      Perform the Operation
+               ↓
+        Display the Result
+               ↓
+        Return to Menu
+               ↓
+          Exit System
+
+## Main Classes
+
 Book.java
 
 Represents a book in the library.
@@ -100,6 +127,7 @@ It stores:
 
 -Book availability status
 
+
 Member.java
 
 Represents a library member.
@@ -109,6 +137,7 @@ It stores:
 -Member ID
 
 -Member name
+
 
 Library.java
 
@@ -128,11 +157,13 @@ Manages the library operations, including:
 
 -Displaying books and members
 
+
 Main.java
 
 Contains the main() method and provides the interactive menu through which the user operates the system.
+          
+## Future Improvements
 
-Future Improvements
 Possible future improvements include:
 
 Graphical User Interface (GUI)
@@ -147,7 +178,8 @@ Book categories
 
 Member-wise borrowing history
 
-Author
+## Author
+
 Shubh Singh
 
 B.Tech CSE (AIML)
